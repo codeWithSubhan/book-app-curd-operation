@@ -35,7 +35,7 @@ export default function BookTable() {
             <th className="p-3">Actions</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="whitespace-nowrap">
           {displayedBooks.map((book, i) => (
             <Book key={book.id} book={book} i={(curPage - 1) * PAGE + i + 1} />
           ))}
