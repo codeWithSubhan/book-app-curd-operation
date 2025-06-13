@@ -27,7 +27,7 @@ export default function Filter() {
     setFilterData(data);
   }
 
-  useEffect(handlefilter, [genre, bookData, status, query]);
+  useEffect(handlefilter, [genre, bookData, status, query, setFilterData]);
 
   return (
     <div className="flex flex-col gap-3 mb-4 md:flex-row md:items-center">
