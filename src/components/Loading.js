@@ -8,7 +8,7 @@ export default function Loading() {
       </div>
 
       <h1 className="text-purple-700 text-center font-sans uppercase text-[20px] relative reading-title">
-        Reading
+        Reading...
       </h1>
     </div>
   );
