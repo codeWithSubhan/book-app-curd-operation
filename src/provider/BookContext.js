@@ -65,7 +65,9 @@ export default function BookProvider({ children }) {
     }
   }
 
-  useEffect(() => fetchBooks, []);
+  useEffect(() => {
+    fetchBooks();
+  }, []);
 
   return (
     <BookContext.Provider
